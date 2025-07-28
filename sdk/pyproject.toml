@@ -69,7 +69,8 @@ where = ["src"]
 include = ["flyte*"]
 
 [tool.setuptools_scm]
-write_to = "src/flyte/_version.py"
+write_to = "sdk/src/flyte/_version.py"
+root=".."
 
 [tool.pytest.ini_options]
 markers = [
